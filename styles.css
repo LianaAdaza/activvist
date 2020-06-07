@@ -32,7 +32,7 @@
 }
 
 a:link{
-  color:#93BDFF
+  color:#93BDFF;
 }
 
 a:hover {
@@ -93,6 +93,12 @@ a:hover {
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+}
+
+.petition {
+    background-color: #036DFF;
+    padding: 20px;
+    color: #93BDFF;
 }
 
 /* gaby css yee */
