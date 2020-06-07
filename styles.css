@@ -1,10 +1,9 @@
+/* lasya css */
 * {
   margin:0px;
   padding:0px;
   font-family: 'Roboto Mono', monospace;
 }
-
-
 
 .header{
   background-color:#93BDFF;
@@ -23,7 +22,6 @@
   flex-wrap: wrap;
   align-items: center;
   margin-bottom: 12px;
-
 }
 
 .info{
@@ -35,8 +33,8 @@
 
 a:link{
   color:#93BDFF
-
 }
+
 a:hover {
   color:#FFFFFF;
 }
@@ -71,6 +69,65 @@ a:hover {
 }
 
 .dropdown-content a:hover {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
-.show {display:block;}
+
+.show {
+  display:block;
+}
+
+/* liana css */
+.list {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.explain {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.link {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* gaby css yee */
+h2{
+  color: #036DFF;
+  font-size: 100px;
+  text-align: center;
+}
+
+.description{
+  text-align: center;
+}
+
+.h3{
+  background-color:#93BDFF;
+  color: #036DFF;
+  padding: 5px;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+.organizations{
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #000;
+  border-radius: 20px;
+}
+
+.buttonn{
+  background-color:#036DFF;
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-aliign: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
